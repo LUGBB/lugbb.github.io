@@ -40,10 +40,10 @@ menu:
     pre: <i class="fa-solid fa-calendar-days"></i>
     url: /stammtisch/
     weight: 20
-  - name: Meetup
-    pre: <i class="fa-brands fa-meetup"></i>
-    url: https://www.meetup.com/de-DE/Linux-User-Group-Boblingen/
-    weight: 100
+#  - name: Meetup
+#    pre: <i class="fa-brands fa-meetup"></i>
+#    url: https://www.meetup.com/de-DE/Linux-User-Group-Boblingen/
+#    weight: 100
   - name: Impressum
     pre: <i class="fa-solid fa-circle-info"></i>
     url: /imprint
