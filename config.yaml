@@ -1,0 +1,50 @@
+title: 'lugbb.org'
+languageCode: 'de-de'
+theme: loveit
+
+params:
+  title: LUGBB
+  description: Linux user group Böblingen/Sindelfingen
+
+  defaultTheme: light
+
+  header:
+    title:
+      name: LUGBB
+      logo: /static/tux.png
+  home:
+    profile:
+      subtitle:
+        Stammtisch für Linux und Unix Freunde in Böblingen/Sindelfingen
+      disclaimer: |
+        <img class="lugbb-logo" src="/static/tux.png">
+
+  footer:
+    since: 2023
+    license: lugbb.org
+  app:
+    title: lugbb.org
+
+  share:
+    enable: false
+
+  page:
+    library:
+        css:
+          lugbb: /static/lugbb.css
+
+menu:
+  main:
+  - identifier: stammtisch
+    name: Stammtisch
+    pre: <i class="fa-solid fa-calendar-days"></i>
+    url: /stammtisch/
+    weight: 20
+  - name: Meetup
+    pre: <i class="fa-brands fa-meetup"></i>
+    url: https://www.meetup.com/de-DE/Linux-User-Group-Boblingen/
+    weight: 100
+  - name: Impressum
+    pre: <i class="fa-solid fa-circle-info"></i>
+    url: /imprint
+    weight: 10001
