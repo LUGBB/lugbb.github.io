@@ -14,6 +14,7 @@ params:
       logo: /static/tux.png
   home:
     profile:
+      typeit: false
       subtitle:
         Stammtisch für Linux und Unix Freunde in Böblingen/Sindelfingen
       disclaimer: |
